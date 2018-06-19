@@ -1,0 +1,155 @@
+body {
+	color: #371f5e;
+	font-size: 24px;
+	background: url(../images/dust_scratches.png);
+}
+
+button {
+	background: #371f5e;
+	border-radius: 40px;
+	border: none;
+	color: #fff;
+	padding: 10px 30px;
+	box-shadow: 0px 4px #1f0d42;
+	margin-bottom: 25px;
+	font-family: 'Bowlby One', cursive;
+	letter-spacing: 2px;
+}
+button:hover {
+	background: #543987;
+	box-shadow: 0px 4px #371f5e;
+}
+.collapse p {
+	padding: 0px 60px;
+}
+
+h1 {
+    font-family: 'Bowlby One', cursive;
+	font-size: 40px;
+	padding: 15px;
+}
+
+h2 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.container {
+	margin-top: 10px;
+}
+
+p {
+    font-size: 20px;
+}
+
+header, footer {
+	background: mediumaquamarine;
+	color: black;
+}
+header {
+	display: block;
+	margin: 0 auto;
+    width: 0 auto;
+	text-align: center;
+}
+
+.mt {
+    margin-top: 60px;
+}
+
+.mb {
+    margin-bottom: 60px;
+}
+
+section {
+	text-align: center;
+}
+
+ul#crystals {
+	padding: 0;
+}
+
+ul#crystals li {
+	display: inline-block;
+    margin: 10px;
+	margin-top: 100px;
+	border: solid black 1px;
+}
+
+li#blue-crystal {
+	background: url(../images/blue-crystal.png);
+	background-repeat: no-repeat;
+	width: 150px;
+    height: 150px;
+    background-size: contain;
+    cursor: pointer;
+}
+
+li#green-crystal {
+	background: url(../images/green-crystal.jpeg);
+	background-repeat: no-repeat;
+	width: 150px;
+    height: 150px;
+    background-size: contain;
+    cursor: pointer;
+}
+
+li#red-crystal {
+	background: url(../images/red-crystal.jpeg);
+	background-repeat: no-repeat;
+	width: 150px;
+    height: 150px;
+    background-size: contain;
+	cursor: pointer;
+}
+
+li#yellow-crystal {
+	background: url(../images/yellow-crystal.jpeg);
+	background-repeat: no-repeat;
+	width: 150px;
+    height: 150px;
+    background-size: contain;
+	cursor: pointer;
+}
+
+.purple {
+	background: #371f5e;
+	padding: 30px;
+	border-radius: 20px;
+	border-left:6px solid white;
+    border-right:6px solid white;
+    color: #fff;
+    margin-top: 20px;
+}
+
+footer {
+	height: 60px;
+	text-align: center;
+	padding-top: 20px;
+    margin-top: 60px;
+	font-size: 16px;
+}
+
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+    /* Retina-specific stuff here */
+    li#blue-crystal {
+    background: url(../images/blue-crystal.png);
+    background-size: 150px 150px
+	}
+	li#green-crystal {
+    background: url(../images/green-crystal.jpeg);
+    background-size: 150px 150px
+	}
+	li#red-crystal {
+    background: url(../images/red-crystal.jpeg);
+    background-size: 150px 150px
+	}
+	li#yellow-crystal {
+    background: url(../images/yellow-crystal.jpeg);
+    background-size: 150px 150px
+	}
+
+}
